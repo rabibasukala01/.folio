@@ -177,33 +177,4 @@ header li{
 
 
 /* project-section */
-.pro{
-    
-    height: 100vh;
-    padding-top: 10%;
-    display: flex;
-    justify-content: space-around;
-
-}
-.cards{
-    height:100%;
-    padding: 0.8rem;
-    border-radius: 3px;
-    margin: 0.4rem;
-    
-
-    
-}
-.card-wrapper{
-    /* display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; 
-   */
-   text-align: start;
-
-}
-
-
-
 /*end- project-section */
