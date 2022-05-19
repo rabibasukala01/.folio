@@ -92,7 +92,7 @@ header li{
 }
 
 .home-btn{
-    padding: 0.4rem 1.5rem;
+    
    
     transition: background 0.5s ease ;
     background: var(--primary-color);
@@ -109,8 +109,8 @@ header li{
 
 .home-btn:focus{
     box-shadow: none;
-   background:var(--primary-color);
-   color: white;
+   /* background:var(--primary-color);
+   color: white; */
    
 }
 
@@ -177,4 +177,58 @@ header li{
 
 
 /* project-section */
+
+.cards{
+    height: 17rem;
+    width: 17rem;
+    margin: 1.2rem;
+    border-radius: 4px;
+    border: 0.1px solid var(--primary-color);
+    /* box-shadow: var(--primary-color) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px; */
+  
+}
+
+.project{
+    padding-top: 6%;
+    
+}
 /*end- project-section */
+
+
+
+
+/* contact-section */
+.contact{
+    height: 85vh;
+    padding-top: 5%;
+}
+#contact-desc{
+   padding-top: 1.5rem;
+   padding-bottom: 1.5rem;
+   padding-right: 15rem;
+   padding-left: 15rem;
+}
+
+/* @media only screen and (max-width:){
+    
+} */
+
+
+/* end-contact-section */
+
+/* footer */
+
+footer a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+footer a:hover{
+    
+    color: var(--primary-color);
+}
+/*end- footer */
+
+
+
+
